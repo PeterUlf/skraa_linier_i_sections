@@ -1,0 +1,41 @@
+body {
+    background-color: red;
+    padding: 0;
+    margin: 0;
+    /*    position: absolute;*/
+}
+
+
+h1 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: -85px;
+    color: white;
+}
+
+.baggrundsfarve:first-child h1 {
+    top: 0;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    transform: skewY(-4deg);
+}
+
+.baggrundsfarve {
+
+    transform: skewY(4deg);
+    background-color: blue;
+    z-index: 10;
+    padding: 50px;
+    position: relative;
+    top: -50px;
+    padding-bottom: 150px;
+}
+
+
+.baggrundsfarve:nth-child(odd) {
+    background-color: red;
+}
