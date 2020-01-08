@@ -2,7 +2,6 @@ body {
     background-color: red;
     padding: 0;
     margin: 0;
-    /*    position: absolute;*/
 }
 
 
@@ -25,7 +24,6 @@ h1 {
 }
 
 .baggrundsfarve {
-
     transform: skewY(4deg);
     background-color: blue;
     z-index: 10;
@@ -34,7 +32,6 @@ h1 {
     top: -50px;
     padding-bottom: 150px;
 }
-
 
 .baggrundsfarve:nth-child(odd) {
     background-color: red;
